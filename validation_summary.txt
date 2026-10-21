@@ -1,0 +1,22 @@
+Haryanvi -> English Dataset Validation Summary
+================================================
+Input file: C:\Desktop\capstone\bible_haryanvi_english_final.csv
+Detected source column: Haryanvi
+Detected English column: English
+Total data rows: 5169
+Rows with no automatic flags: 4883
+Rows flagged for review: 286
+
+Flag counts (one row can have multiple flags):
+  DUPLICATE_ENGLISH_TRANSLATION: 244
+  DUPLICATE_HARYANVI_SOURCE: 258
+  ENGLISH_TOO_SHORT: 6
+  PLACEHOLDER_TEXT: 20
+  SOURCE_EQUALS_TRANSLATION: 1
+
+Important:
+- These checks find missing values, duplicates, and unusual patterns.
+- No flags does NOT guarantee that a translation is accurate.
+- Manually review flagged rows for meaning, names, verse numbers, and context.
+- The original CSV is not modified.
+- Detailed report: C:\Desktop\capstone\validation_report.csv
